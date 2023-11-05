@@ -36,6 +36,7 @@ class Media(Video, Audio):
         print("Categoria: ", self.categoria)
         print("Nombre del artista: ", self.nombre_artista)
         
+ # Instanciar la clase Media       
 media = Media("El señor de los anillos", 120, "Accion", "J.R.R Tolkien")
 media.mirar_video()
 media.mostrar_informacion()
