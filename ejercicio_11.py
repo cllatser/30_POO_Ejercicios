@@ -48,7 +48,7 @@ class Calculo_Numerio:
         print(f"{self.numero} es impar")
        
 # Crear un objeto de la clase Calculo_Numerico y probar sus métodos.         
-calculo = Calculo_Numerio(14)
+calculo = Calculo_Numerio(30)
 calculo.calculo_factorial()
 calculo.lista_divisores()
 calculo.es_primo()
